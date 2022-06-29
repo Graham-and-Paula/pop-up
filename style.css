@@ -61,9 +61,14 @@ section {
 	padding: 10px;
 	display: flex;
 	gap: 5px;
+
+	text-align: center;
+ 	text-decoration: none;
 }
 
-.topBar {
+.topBar button{
+	border-radius: 20px;
+	padding:1px 5px;
 
 }
 
@@ -75,4 +80,17 @@ section {
 .buttonBar {
 	justify-content: flex-end;
 
+}
+.cancel,
+.close {
+	background-color: red;
+}
+
+.ok,
+.maximise {
+	background-color: green;
+}
+
+.minimise {
+	background-color: yellow;
 }
